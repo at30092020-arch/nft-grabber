@@ -1,3 +1,5 @@
+```python
+                                                                   
 from flask import Flask, request, render_template_string
 import asyncio
 import threading
@@ -65,4 +67,4 @@ logger.error(f"Ошибка: {e}")
 
 if name == "main":
 port = int(os.environ.get("PORT", 5000))
-app.run(host='0.0.0.0', port=port)                             
+app.run(host='0.0.0.0', port=port)                            
